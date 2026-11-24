@@ -1,9 +1,9 @@
 <?php
 
-$conn = new mysqli("localhost","root","","user_db");
+$conn = new mysqli("localhost", "root", "", "employee_db");
 
 if(!$conn){
-    echo 'Database Not Connected';
+    echo "Database Not Connected";
 }
 
 ?>
